@@ -62,3 +62,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     wifi.interface=wlan0 \
     wifi.direct.interface=p2p0
+
+# LineageOTA Updater URL
+PRODUCT_PROPERTY_OVERRIDES += \
+    lineage.updater.uri=https://lineageos.glitchy.net/api/v1/{device}/{type}/{incr}
